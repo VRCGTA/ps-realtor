@@ -22,10 +22,10 @@ Config.ItemName = "tablet"  -- Item name to make it usable.
 --Commisions is handled in ps-housing config.
 
 Config.RealtorPerms = {
-    manageProperty = 1, --minimum grade to manage property | default 1
-    changePropertyForSale = 0, --minimum grade to list property | default 0
-    sellProperty = 0, --minimum grade to sell property | default 0
-    listNewProperty = 2, --minimum grade to list property | default 2
-    deleteProperty = 2, --minimum grade to delete property | default 2
+    manageProperty = 3, --minimum grade to manage property | default 1
+    changePropertyForSale = 3, --minimum grade to list property | default 0
+    sellProperty = 3, --minimum grade to sell property | default 0
+    listNewProperty = 3, --minimum grade to list property | default 2
+    deleteProperty = 3, --minimum grade to delete property | default 2
     setApartments = 2, --minimum grade to set apartments for players | default 2
 }
