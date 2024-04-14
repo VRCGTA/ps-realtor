@@ -55,7 +55,7 @@
                             </div>
 
                             <div class="right-column">
-                                <p class="title">$ {selectedProperty.price?.toLocaleString()} USD</p>
+                                <p class="title">𝕍 {selectedProperty.price?.toLocaleString()} VRC</p>
 
                                 <button class="waypoint" on:click={() => SendNUI('setWaypoint', selectedProperty.door_data)}>
                                     <i class="fas fa-location-dot"></i>

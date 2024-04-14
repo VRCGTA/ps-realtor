@@ -44,7 +44,7 @@
 			{property.property_id}
 		</p>
 		<p class="property-address">{property.region ? property.region : ''}</p>
-		<p class="property-cost">$ {property.price?.toLocaleString()} USD</p>
+		<p class="property-cost">𝕍 {property.price?.toLocaleString()} VRC</p>
 		<div class="property-details">
 			{#if $REALTOR_GRADE >= 0 && property.for_sale}
 				<div class="each-tile">
