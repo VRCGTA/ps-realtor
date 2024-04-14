@@ -234,7 +234,7 @@
 								<div class="action-row">
 									<input
 										type="text"
-										placeholder="$1000000000"
+										placeholder="𝕍1000000000"
 										style="width: 10vw;"
 										bind:value={propertyPrice}
 										on:keyup={() =>
